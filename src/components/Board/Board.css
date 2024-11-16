@@ -1,0 +1,132 @@
+.board-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  /* .display-button-container {
+    padding: 16px;
+    background: white;
+    border-bottom: 1px solid #e0e0e0;
+  } */
+  .navbar {
+    background: white;
+    padding: 16px 32px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  .display-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background: #f4f5f8;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .display-icon {
+    font-size: 16px;
+  }
+  
+  .board {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    overflow-x: auto;
+    flex-grow: 1;
+  }
+  
+  .board-column {
+    min-width: 300px;
+    background: #f4f5f8;
+    border-radius: 8px;
+    padding: 16px;
+  }
+  
+  .column-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .header-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .group-icon {
+    font-size: 16px;
+  }
+  
+  .header-title h2 {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .ticket-count {
+    background: #e0e0e0;
+    border-radius: 12px;
+    padding: 2px 8px;
+    font-size: 12px;
+  }
+  
+  .header-actions {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .add-button,
+  .options-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 4px 8px;
+  }
+  
+  .column-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .display-button-container {
+    position: relative;
+    z-index: 1000;
+    display: inline-block
+  }
+  
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 8px;
+    min-width: 200px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    z-index: 1000;
+  }
+  
+  .dropdown-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+  }
+  
+  .dropdown-item select {
+    padding: 4px 8px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+  }
+
+  .dropdown-arrow {
+    font-size: 12px;
+    margin-left: 4px;
+  }
